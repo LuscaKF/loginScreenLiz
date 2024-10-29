@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* Reseta margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo da página */
+body, html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+    background: linear-gradient(135deg, #0095D9, #C5168C);
+    color: #fff;
+    overflow: hidden;
+}
+
+/* Contêiner centralizado */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Estilo da logo - ajusta a imagem para ocupar a div centralizada */
+.logo img {
+    width: 120px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+/* Estilo do título */
+.welcome {
+    font-weight: 700;
+    font-size: 2em; /* Aumentado para melhor visibilidade */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo da mensagem */
+.message {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em; /* Aumentado para melhor visibilidade */
+    margin-top: 8px;
+}
+
+/* Animação de entrada */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
