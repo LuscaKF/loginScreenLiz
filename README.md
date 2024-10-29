@@ -61,8 +61,11 @@ O arquivo style.css contém:
 
 # Imagens relacionadas:
 
-Imagem em WEB:
+- Imagem em WEB:
+  
 ![{4B250A43-5DD1-42CE-9DB7-69D73426EADA}](https://github.com/user-attachments/assets/80ba26e2-e8aa-46e7-927c-c53f2be1b97b)
 
-Imagem em SmartPhone:
+
+- Imagem em SmartPhone:
+  
 ![{C31CB202-FC76-423E-9E81-062ADB995D57}](https://github.com/user-attachments/assets/46876f81-cf1a-4d33-bc1f-03e74e41cab5)
