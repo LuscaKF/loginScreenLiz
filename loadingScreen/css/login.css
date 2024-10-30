@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* Reseta margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo da página */
+body, html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+    background-color: #fff;
+    color: #333;
+    overflow: hidden;
+}
+
+/* Contêiner centralizado para a tela de login */
+.login-container {
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Logo no topo da tela de login */
+.login-container .logo img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Título da tela de login */
+.login-container h2 {
+    font-weight: 700;
+    font-size: 1.8em; /* Aumentado para visibilidade */
+    margin-bottom: 20px;
+    color: #0095D9; /* Azul para destaque */
+}
+
+/* Estilo dos campos de entrada */
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #0095D9;
+}
+
+/* Esqueci minha senha */
+.forgot-password {
+    font-size: 0.9em;
+    color: #0095D9;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    display: block;
+    text-align: right;
+    width: 100%;
+}
+
+/* Botão de login */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0095D9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #007bbd;
+}
+
+/* Animação de entrada */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
