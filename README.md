@@ -1,9 +1,10 @@
-# Tela de Carregamento
+# Mobile App Lizz
 
-Este projeto é uma tela de carregamento simples desenvolvida com HTML e CSS. A tela exibe uma logo, uma mensagem de boas-vindas e uma mensagem de carregamento, utilizando um fundo em degradê. 
+Este projeto são algumas telas MVP de carregamento simples, login, redefinição de senha e de controle de contatos para pedido de ajuda desenvolvida com HTML e CSS. As telas exibem um HTML simples com um CSS simples para a interface intuitiva com o usuário.
 
 ## Tecnologias Utilizadas
 
+- **JavaScript**: Para dinamicas com as páginas.
 - **HTML5**: Para a estrutura da página.
 - **CSS3**: Para o estilo e layout da tela de carregamento.
 - **Google Fonts**: Utilizado para as fontes "Manrope" na tela.
@@ -14,45 +15,11 @@ O projeto consiste em dois arquivos principais:
 
 1. **index.html**: O arquivo HTML que contém a estrutura da tela de carregamento.
 2. **style.css**: O arquivo CSS que define o estilo da página, incluindo cores, fontes, layout e animações.
-
-### index.html
-
-O arquivo `index.html` contém:
-
-- **Contêiner Principal**: Um `<div>` com a classe `container`, que centraliza todos os elementos na tela.
-- **Logo**: Um `<div>` que contém uma imagem da logo. A imagem deve ter fundo transparente para se integrar ao fundo degradê.
-- **Mensagens**: Dois elementos de texto (`<h1>` e `<div>`) para exibir a mensagem de boas-vindas e a mensagem de carregamento.
-
-```html
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Carregamento</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="logo">
-            <img src="./img/logo-liz.png" alt="logo-liz">
-        </div>
-        <h1 class="welcome">Seja bem-vindo</h1>
-        <div class="message">Estamos te conectando</div>
-    </div>
-</body>
-</html>
-```
-
-### style.css
-
-O arquivo style.css contém:
-
-- Reset de Estilo: Remove margens e preenchimentos padrão para evitar linhas indesejadas.
-- Estilos do Body e HTML: Define um fundo em degradê e centraliza o conteúdo na tela.
-- Contêiner Centralizado: Utiliza Flexbox para centralizar os elementos vertical e horizontalmente.
-- Estilo da Logo: Define o tamanho da logo.
-- Estilos para Título e Mensagem: Configura as fontes, tamanhos e margens para os textos.
+3. **login.html**: O arquivo HTML que contém a estrutura da tela de login.
+4. **login.css**: O arquivo CSS que define o estilo da página, incluindo cores, fontes, layout e animações.
+5. **password.html**: O arquivo HTML que contém a estrutura da tela de redefinição de senha.
+6. **password.css**: O arquivo CSS que define o estilo da página, incluindo cores, fontes, layout e animações.
+7. **script.js**: O arquivo que define a dinamica entre as páginas.
 
 ### Instruções:
 1. Salve o conteúdo acima em um arquivo chamado `README.md`.
@@ -62,10 +29,5 @@ O arquivo style.css contém:
 # Imagens relacionadas:
 
 - Imagem em WEB:
-  
-![{4B250A43-5DD1-42CE-9DB7-69D73426EADA}](https://github.com/user-attachments/assets/80ba26e2-e8aa-46e7-927c-c53f2be1b97b)
 
-
-- Imagem em SmartPhone:
-  
-![{C31CB202-FC76-423E-9E81-062ADB995D57}](https://github.com/user-attachments/assets/46876f81-cf1a-4d33-bc1f-03e74e41cab5)
+  Em breve! Assim que o projeto estiver terminado.
